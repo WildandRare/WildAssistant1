@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="wildassistant.js"></script>
+    </head>
+    <body>
+        <textarea id="inputtextarea" onkeypress="enter()" style="resize: none; overflow: auto; width:99%;position: relative;
+        left:0.2%;height:26vw; background-color: grey; border-radius: 1vw;border-style: solid;
+        border-width: 0.3vw; border-color: black;"></textarea>
+        <button onclick="scanreturn()" style="width:100%;position: relative;
+        left:0.2%; height:3vw; background-color: grey; border-radius: 1vw;border-style: solid;
+        border-width: 0.3vw; border-color: black;">Enter</button>
+        <style>
+            @font-face {
+                font-family: AllBody;
+                src: url(fonts/FredokaOne-Regular.ttf);
+            }
+            body{
+                font-family: AllBody;
+                font-size: 3.3vw;
+                background-color: rgb(43, 43, 43);
+            }
+            button{
+                font-family: AllBody;
+                font-size: 2.3vw;
+                outline: none;
+            }
+            textarea{
+                font-family: AllBody;
+                font-size: 3vw;
+                outline: none;
+            }
+        </style>
+        <span response></span>
+    </body>
+</html>
